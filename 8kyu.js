@@ -355,3 +355,14 @@
 // let testData = [0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14];
 // let actual = countPositivesSumNegatives(testData);
 // console.log(actual)
+
+
+// const DNAtoRNA = (dna) => dna.split('').map(n => n === 'T' ? 'U' : n).join('')
+// console.log(DNAtoRNA("TTTT"))
+// console.log(DNAtoRNA("GCAT"))
+// console.log(DNAtoRNA("GACCGCCGCC"))
+
+
+// const mouthSize = (animal) => animal.toLowerCase() === "alligator" ? "small" : "wide"
+// console.log(mouthSize("ant bear"))
+// console.log(mouthSize("alligator"))

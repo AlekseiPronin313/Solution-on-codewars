@@ -1,4 +1,3 @@
-
 // function sortByLength (array) {
 //     return array.sort((a, b) => a.length - b.length)};
 // sortByLength(["Beg", "Life", "I", "To"])
@@ -140,3 +139,24 @@
 // console.log(stray([1, 1, 2]))
 // console.log(stray([1, 2, 2]))
 // console.log(stray([3, 3, 3, 4]))
+
+
+// const sumDigits = (number) => Math.abs(number).toString().split('').reduce((a, b) => a + +b, 0)
+// console.log(sumDigits(10))
+// console.log(sumDigits(99))
+// console.log(sumDigits(-32))
+
+
+// const getSum = ( a,b ) => {
+//     const min = Math.min(a, b)
+//     const max = Math.max(a, b)
+//     let num = 0
+//     for (let i = min; i <= max; i++) {
+//         num += i
+//     }
+//     return num
+// }
+// console.log(getSum(-1,0))
+// console.log(getSum(0,-1))
+// console.log(getSum(3,3))
+// console.log(getSum(-1,2))

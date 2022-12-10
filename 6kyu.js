@@ -76,3 +76,10 @@
 //     return number
 // }
 // console.log(doTest([0,1,0,1,1]))
+
+
+// const countSmileys = (arr) => arr.filter(x => /^[:;][-~]?[)D]$/.test(x)).length;
+// console.log(countSmileys([':D',':~)',';~D',':)']))
+// console.log(countSmileys([':)',':(',':D',':O',':;']))
+// console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']))
+
