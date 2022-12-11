@@ -366,3 +366,28 @@
 // const mouthSize = (animal) => animal.toLowerCase() === "alligator" ? "small" : "wide"
 // console.log(mouthSize("ant bear"))
 // console.log(mouthSize("alligator"))
+
+
+// const correct = (string) => string.replace(/1/gi, 'I').replace(/0/gi, 'O').replace(/5/gi, 'S')
+// console.log(correct("L0ND0N"))
+// console.log(correct("DUBL1N"))
+// console.log(correct("51NGAP0RE"))
+
+
+// const hello = (name) => `Hello, ${name ? name.charAt(0).toUpperCase() + name.slice(1).toLowerCase() : 'World'}!`
+// console.log(hello(''))
+// console.log(hello())
+// console.log(hello('aleX'))
+
+
+// const reverse = (string) => string.split(' ').reverse().join(' ')
+// console.log(reverse('I am an expert at this'))
+// console.log(reverse(''))
+// console.log(reverse('CodeWars'))
+
+
+// const laLigaGoals = 43
+// const championsLeagueGoals = 10
+// const copaDelReyGoals = 5
+// const totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
+// console.log(totalGoals)

@@ -160,3 +160,9 @@
 // console.log(getSum(0,-1))
 // console.log(getSum(3,3))
 // console.log(getSum(-1,2))
+
+
+// const oddOrEven = (array) =>  array.reduce((a, b) => a + b, 0) % 2 ? "odd" : "even"
+// console.log(oddOrEven([0, 1, 2]))
+// console.log(oddOrEven([0]))
+// console.log(oddOrEven([0, -1, -5]))
