@@ -391,3 +391,19 @@
 // const copaDelReyGoals = 5
 // const totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
 // console.log(totalGoals)
+
+
+// const square = (n) => Math.pow(n, 2)
+// console.log(square(3))
+
+
+// const goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => laLigaGoals + copaDelReyGoals + championsLeagueGoals
+// console.log(goals(3, 2 ,3))
+
+
+// const binToDec = (bin) => parseInt(bin, 2)
+// console.log(binToDec("1001001"))
+
+
+// const getChar = (c) =>  String.fromCharCode(c)
+// console.log(getChar(55))
