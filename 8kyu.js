@@ -407,3 +407,31 @@
 
 // const getChar = (c) =>  String.fromCharCode(c)
 // console.log(getChar(55))
+
+
+// const Kata = {
+//     getVolumeOfCuboid : (length, width, height) => length * width * height
+// }
+// console.log(Kata.getVolumeOfCuboid(1,2,2))
+
+
+// function rainAmount(mm){
+//     if (mm >= 40) {
+//         return "Your plant has had more than enough water for today!"
+//     } else  {
+//         return `You need to give your plant ${Math.abs(mm - 40)}mm of water`
+//     }
+// }
+// console.log(rainAmount(100))
+// console.log(rainAmount(39))
+
+
+// const toBinary = (n) => Number(n.toString(2))
+// console.log(toBinary(1))
+// console.log(toBinary(14))
+
+
+// const hexToDec = (hexString) => parseInt(hexString, 16)
+// console.log(hexToDec("a"))
+// console.log(hexToDec("FF"))
+// console.log(hexToDec("-C"))

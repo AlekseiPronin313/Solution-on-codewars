@@ -88,3 +88,17 @@
 // console.log(order("is2 Thi1s T4est 3a"))
 // console.log(order("4of Fo1r pe6ople g3ood th5e the2"))
 // console.log(order(""))
+
+
+// function towerBuilder(nFloors) {
+//     const arr = []
+//     for (let i = 0; i < nFloors; i++) {
+//         arr.push(" ".repeat(nFloors - i - 1)
+//             + "*".repeat(2 * i + 1)
+//             + " ".repeat(nFloors - i - 1))
+//     }
+//     return arr
+// }
+// console.log(towerBuilder(1))
+// console.log(towerBuilder(2))
+// console.log(towerBuilder(3))
