@@ -166,3 +166,27 @@
 // console.log(oddOrEven([0, 1, 2]))
 // console.log(oddOrEven([0]))
 // console.log(oddOrEven([0, -1, -5]))
+
+
+// function arithmetic(a, b, operator){
+//     if (operator === 'add') {
+//         return a + b
+//     } else if (operator === 'subtract') {
+//         return a - b
+//     } else if (operator === 'multiply') {
+//         return a * b
+//     } else  if (operator === 'divide') {
+//         return a / b
+//     }
+// }
+// console.log(arithmetic(1, 2, "add"))
+// console.log(arithmetic(8, 2, "subtract"))
+// console.log(arithmetic(5, 2, "multiply"))
+// console.log(arithmetic(8, 2, "divide"))
+
+
+// const solution = (nums) => nums === null ? [] : nums.sort((a, b) => a - b)
+// console.log(solution([1,2,3,10,5]))
+// console.log(solution(null))
+// console.log(solution([]))
+// console.log(solution([20, 2, 10]))

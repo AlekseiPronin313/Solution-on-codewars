@@ -102,3 +102,16 @@
 // console.log(towerBuilder(1))
 // console.log(towerBuilder(2))
 // console.log(towerBuilder(3))
+
+
+// function persistence(num) {
+//     let counter = 0
+//         while (num.toString().length > 1) {
+//             num = num.toString().split('').reduce((a, b) => a * b, 1)
+//             counter++
+//         }
+//         return counter
+// }
+// console.log(persistence(39))
+// console.log(persistence(4))
+// console.log(persistence(999))
