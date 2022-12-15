@@ -115,3 +115,13 @@
 // console.log(persistence(39))
 // console.log(persistence(4))
 // console.log(persistence(999))
+
+
+// function count (string) {
+//     return string.split('').reduce((a, b) => {
+//         a[b] = (a[b]||0) + 1;
+//         return a;
+//     },{});
+// }
+// console.log(count("aba"))
+// console.log(count(""))

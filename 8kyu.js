@@ -435,3 +435,8 @@
 // console.log(hexToDec("a"))
 // console.log(hexToDec("FF"))
 // console.log(hexToDec("-C"))
+
+
+// const reverseList = (list) => list.reverse()
+// console.log(reverseList([1,2,3,4]))
+// console.log(reverseList([3,1,5,4]))

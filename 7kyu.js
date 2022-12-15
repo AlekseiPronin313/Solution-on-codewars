@@ -190,3 +190,13 @@
 // console.log(solution(null))
 // console.log(solution([]))
 // console.log(solution([20, 2, 10]))
+
+
+// const number = function(busStops){
+//     const arr = []
+//     busStops.map(a => a.reduce((a, b) => arr.push(a - b)))
+//     return arr.reduce((a, b) => a + b)
+// }
+// console.log(number([[10,0],[3,5],[5,8]]))
+// console.log(number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]))
+// console.log(number([[0,0]]))
