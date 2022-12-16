@@ -440,3 +440,13 @@
 // const reverseList = (list) => list.reverse()
 // console.log(reverseList([1,2,3,4]))
 // console.log(reverseList([3,1,5,4]))
+
+
+// const hoopCount = (n) => n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it"
+// console.log(hoopCount(3))
+// console.log(hoopCount(11))
+
+
+// const apple = (x) => Math.pow(x, 2) >= 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
+// console.log(apple('50'))
+// console.log(apple(4))

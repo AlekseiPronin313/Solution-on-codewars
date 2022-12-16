@@ -200,3 +200,26 @@
 // console.log(number([[10,0],[3,5],[5,8]]))
 // console.log(number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]))
 // console.log(number([[0,0]]))
+
+
+// const minValue = (values) => Number([...new Set(values)].sort((a, b) => a - b).join(''))
+// console.log(minValue([1, 3, 1]))
+// console.log(minValue([4, 8, 1, 4]))
+// console.log(minValue([6, 7, 8, 7, 6, 6]))
+
+
+// function nbYear(p0, percent, aug, p) {
+//     let years = 0;
+//     for (years; p0 < p; years++) {
+//         p0 = Math.floor(p0 + p0 * percent / 100 + aug);
+//     }
+//     return years;
+// }
+// console.log(nbYear(1500, 5, 100, 5000))
+// console.log(nbYear(1500000, 2.5, 10000, 2000000))
+// console.log(nbYear(1500000, 0.25, 1000, 2000000))
+
+
+// const sumOfMinimums = (arr) => arr.reduce((p, c) => p + Math.min(...c), 0)
+// console.log(sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]))
+// console.log(sumOfMinimums([[11, 12, 14, 54], [67, 89, 90, 56], [7, 9, 4, 3], [9, 8, 6, 7]]))
