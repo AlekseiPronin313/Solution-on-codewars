@@ -450,3 +450,29 @@
 // const apple = (x) => Math.pow(x, 2) >= 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.'
 // console.log(apple('50'))
 // console.log(apple(4))
+
+
+// const boolToWord = ( bool ) => bool? 'Yes' : 'No'
+// console.log(boolToWord(true))
+// console.log(boolToWord(false))
+
+
+// const preFizz = (n) => {
+//     const num = []
+//     for (let i = 1; i <= n; i++) {
+//         num.push(i)
+//     }
+//     return num
+// }
+// console.log(preFizz(1))
+// console.log(preFizz(3))
+// console.log(preFizz(7))
+
+
+// const addLength = (str) => str.split(' ').map(a => a + ' ' + a.length)
+// console.log(addLength('apple ban'))
+// console.log(addLength('you will win'))
+
+
+// const distinct = (a) => [...new Set(a)]
+// console.log(distinct([1, 1, 2]))
