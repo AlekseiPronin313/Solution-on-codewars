@@ -476,3 +476,24 @@
 
 // const distinct = (a) => [...new Set(a)]
 // console.log(distinct([1, 1, 2]))
+
+
+// function findMultiples(integer, limit) {
+//     const arr = []
+//     for (let i = integer; i <= limit; i += integer) {
+//         arr.push(i)
+//     }
+//     return arr
+// }
+// console.log(findMultiples(5, 25))
+// console.log(findMultiples(1, 2))
+// console.log(findMultiples(11, 54))
+
+
+// const stringToNumber = (str) => Number(str)
+// console.log(stringToNumber("1234"))
+// console.log(stringToNumber("-7"))
+
+
+// const printArray = (array) => array.join(',')
+// console.log(printArray([2,4,5,2]))
