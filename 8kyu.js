@@ -497,3 +497,14 @@
 
 // const printArray = (array) => array.join(',')
 // console.log(printArray([2,4,5,2]))
+
+
+// const animal = (obj) => `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
+// console.log(animal({name:"dog",legs:4,color:"white"}))
+// console.log(animal({name:"rabbit",legs:4,color:"gray"}))
+
+
+// const check = (a,x) => a.some(s => s === x);
+// console.log(check([66, 101], 66))
+// console.log(check(['t', 'e', 's', 't'], 'e'))
+// console.log(check(['what', 'a', 'great', 'kata'], 'kat'))

@@ -125,3 +125,13 @@
 // }
 // console.log(count("aba"))
 // console.log(count(""))
+
+
+// const high = (x) => {
+//     let arr = x.split(' ').map((s) => [...s].reduce((sum, s) => sum + s.charCodeAt() - 96, 0))
+//
+//     return x.split(' ')[arr.indexOf(Math.max(...arr))]
+// }
+// console.log(high('man i need a taxi up to ubud'))
+// console.log(high('take me to semynak'))
+// console.log(high('aaa b'))
