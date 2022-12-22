@@ -223,3 +223,36 @@
 // const sumOfMinimums = (arr) => arr.reduce((p, c) => p + Math.min(...c), 0)
 // console.log(sumOfMinimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]))
 // console.log(sumOfMinimums([[11, 12, 14, 54], [67, 89, 90, 56], [7, 9, 4, 3], [9, 8, 6, 7]]))
+
+
+// function XO(str) {
+//     const arr = str.toLowerCase().split('')
+//     return arr.filter(a => a === 'o').length === arr.filter(a => a === 'x').length
+// }
+// console.log(XO('xo'))
+// console.log(XO("xxOo"))
+// console.log(XO("Oo"))
+
+
+// const mxdiflg = (a1, a2 ) => {
+//     if(a1.length === 0 || a2.length === 0){
+//         return -1
+//     }
+//     let l1 = a1.map(str => str.length)
+//     let l2 = a2.map(str => str.length)
+//     return Math.max(Math.max(...l1) - Math.min(...l2), Math.max(...l2) - Math.min(...l1))
+// }
+// console.log(mxdiflg(["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"],
+//     ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"]))
+
+
+// const longest = (s1, s2) => [...new Set((s1 + s2).split(''))].sort().join('')
+// console.log(longest("aretheyhere", "yestheyarehere"))
+// console.log(longest("loopingisfunbutdangerous", "lessdangerousthancoding"))
+// console.log(longest("inmanylanguages", "theresapairoffunctions"))
+
+
+// const smallEnough = (a, limit) => Math.max(...a) <= limit
+// console.log(smallEnough([66, 101], 200))
+// console.log(smallEnough([78, 117, 110, 99, 104, 117, 107, 115], 100))
+// console.log(smallEnough([101, 45, 75, 105, 99, 107], 107))
