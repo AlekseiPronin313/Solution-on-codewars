@@ -256,3 +256,9 @@
 // console.log(smallEnough([66, 101], 200))
 // console.log(smallEnough([78, 117, 110, 99, 104, 117, 107, 115], 100))
 // console.log(smallEnough([101, 45, 75, 105, 99, 107], 107))
+
+
+// const largestPairSum = (numbers) => numbers.sort((a, b) => b - a).slice(0,2).reduce((a, b) => a + b)
+// console.log(largestPairSum([10,14,2,23,19]))
+// console.log(largestPairSum([-10, -8, -16, -18, -19]))
+// console.log(largestPairSum([1,2,3,4,6,-1,2]))

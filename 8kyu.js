@@ -508,3 +508,14 @@
 // console.log(check([66, 101], 66))
 // console.log(check(['t', 'e', 's', 't'], 'e'))
 // console.log(check(['what', 'a', 'great', 'kata'], 'kat'))
+
+
+// const derive = (coefficient,exponent) => `${coefficient * exponent}x^${exponent - 1}`
+// console.log(derive(7,8))
+// console.log(derive(5,9))
+
+
+// const dutyFree = (normPrice, discount, hol) => (Math.floor(hol / (normPrice * discount/100)))
+// console.log(dutyFree(12, 50, 1000))
+// console.log(dutyFree(17, 10, 500))
+// console.log(dutyFree(24, 35, 3000))
