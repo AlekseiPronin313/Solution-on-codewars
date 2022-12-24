@@ -519,3 +519,14 @@
 // console.log(dutyFree(12, 50, 1000))
 // console.log(dutyFree(17, 10, 500))
 // console.log(dutyFree(24, 35, 3000))
+
+
+// const spEng = (sentence) => /english/i.test(sentence)
+// console.log(spEng("english"))
+// console.log(spEng("egnlish"))
+
+
+// const mergeArrays = (arr1, arr2) => Array.from(new Set(arr1.concat(arr2).sort((a, b) => a - b)))
+// console.log(mergeArrays([1,2,3,4], [5,6,7,8]))
+// console.log(mergeArrays([1,3,5,7,9], [10,8,6,4,2]))
+// console.log(mergeArrays([1,3,5,7,9,11,12], [1,2,3,4,5,10,12]))

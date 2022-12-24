@@ -262,3 +262,15 @@
 // console.log(largestPairSum([10,14,2,23,19]))
 // console.log(largestPairSum([-10, -8, -16, -18, -19]))
 // console.log(largestPairSum([1,2,3,4,6,-1,2]))
+
+
+// const reverseLetter = (str) => str.replace(/[^a-z]/gi, '').split('').reverse().join('')
+// console.log(reverseLetter("krishan"))
+// console.log(reverseLetter("ultr53o?n"))
+// console.log(reverseLetter("ab23c"))
+
+
+// const evenNumbers = (array, number) => array.filter(number => number %2 === 0).slice(-number)
+// console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))
+// console.log(evenNumbers([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))
+// console.log(evenNumbers([6, -25, 3, 7, 5, 5, 7, -3, 23], 1))
