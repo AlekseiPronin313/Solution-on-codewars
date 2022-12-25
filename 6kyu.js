@@ -135,3 +135,8 @@
 // console.log(high('man i need a taxi up to ubud'))
 // console.log(high('take me to semynak'))
 // console.log(high('aaa b'))
+
+
+// const solution = (string) => string.replace(/([A-Z])/g, " $1")
+// console.log(solution('camelCasing'))
+// console.log(solution('camelCasingTest'))

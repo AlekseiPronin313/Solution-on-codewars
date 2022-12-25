@@ -270,7 +270,31 @@
 // console.log(reverseLetter("ab23c"))
 
 
-// const evenNumbers = (array, number) => array.filter(number => number %2 === 0).slice(-number)
+// const evenNumbers = (array, number) => array.filter(number => number % 2 === 0).slice(-number)
 // console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))
 // console.log(evenNumbers([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2))
 // console.log(evenNumbers([6, -25, 3, 7, 5, 5, 7, -3, 23], 1))
+
+
+// const getEvenNumbers = (numbersArray) => numbersArray.filter(n => n % 2 === 0)
+// console.log(getEvenNumbers([1, 3, 9]))
+// console.log(getEvenNumbers([1, 2, 3, 6, 8, 10]))
+// console.log(getEvenNumbers([12, 14, 15]))
+
+
+// const SequenceSum = (function() {
+//     function SequenceSum() {}
+//     SequenceSum.showSequence = function(count) {
+//         let arr = []
+//         if (count === 0) return '0=0'
+//         if (count < 0) return `${count}<0`
+//         for (let i = 0; i <= count; i++) {
+//             arr.push(i)
+//         }
+//         const sum = arr.reduce((a, b) => a + b)
+//         const str = arr.join('+')
+//         return `${str} = ${sum}`
+//     };
+//     return SequenceSum;
+// })();
+// console.log(SequenceSum.showSequence(6))
