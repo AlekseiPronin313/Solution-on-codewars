@@ -535,3 +535,38 @@
 // const usdcny = (usd) => `${(usd * 6.75).toFixed(2)} Chinese Yuan`
 // console.log(usdcny(15))
 // console.log(usdcny(7592))
+
+
+// const shortcut = (string) => string.replace(/[aeiou]/g, '')
+// console.log(shortcut('hello'))
+// console.log(shortcut('how are you today?'))
+// console.log(shortcut("HELLO"))
+
+
+// const replace = (s) => s.replace(/[aeiou]/gi, '!')
+// console.log(replace("Hi!"))
+// console.log(replace("!Hi! Hi!"))
+// console.log(replace("aeiou"))
+
+
+// function calculator(a,b,sign) {
+//     try
+//     { return eval(a+sign+b); }
+//     catch(e)
+//     { return "unknown value"; }
+// }
+// console.log(calculator(1,2,"-"))
+// console.log(calculator(6,2,"$"))
+// console.log(calculator(6,"h","*"))
+
+
+// "use strict";
+// const flattenAndSort = (array) => [].concat(...array).sort((a, b) => a - b)
+// console.log(flattenAndSort([]))
+// console.log(flattenAndSort([[], []]))
+// console.log(flattenAndSort([[3, 2, 1], [7, 9, 8], [6, 4, 5]]))
+
+
+// const findAverage = (nums) => (nums.reduce((a, b) => a + b) ) / nums.length
+// console.log(findAverage([1]))
+// console.log(findAverage([1, 3, 5, 7]))
