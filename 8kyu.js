@@ -570,3 +570,23 @@
 // const findAverage = (nums) => (nums.reduce((a, b) => a + b) ) / nums.length
 // console.log(findAverage([1]))
 // console.log(findAverage([1, 3, 5, 7]))
+
+
+// function pipeFix(numbers){
+//     const arr = []
+//     const min = Math.min(...numbers)
+//     const max = Math.max(...numbers)
+//     for (let i = min; i <= max; i++) {
+//        arr.push(i)
+//     }
+//     return arr
+// }
+// console.log(pipeFix([1,2,3,5,6,8,9]))
+// console.log(pipeFix([1,2,3,12]))
+// console.log(pipeFix([-1,4]))
+
+
+// const stringClean = (s) => s.replace(/[0-9]/g, '')
+// console.log(stringClean("! !"))
+// console.log(stringClean("123456789"))
+// console.log(stringClean("Adgre2321 A1sad! A2A3A4 fv3fdv3J544K5L@"))

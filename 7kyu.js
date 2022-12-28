@@ -298,3 +298,12 @@
 //     return SequenceSum;
 // })();
 // console.log(SequenceSum.showSequence(6))
+
+
+// function DNAStrand(dna){
+//     let obj = {'A':'T', 'T':'A', 'G':'C', 'C':'G'};
+//     return dna.replace(/./g, x => obj[x])
+// }
+// console.log(DNAStrand("AAAA"))
+// console.log(DNAStrand("ATTGC"))
+// console.log(DNAStrand("GTAT"))
