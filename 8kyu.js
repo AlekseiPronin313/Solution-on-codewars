@@ -590,3 +590,9 @@
 // console.log(stringClean("! !"))
 // console.log(stringClean("123456789"))
 // console.log(stringClean("Adgre2321 A1sad! A2A3A4 fv3fdv3J544K5L@"))
+
+
+// const howManyLightsabersDoYouOwn = (name) => name === "Zach" ? 18 : 0
+// console.log(howManyLightsabersDoYouOwn())
+// console.log(howManyLightsabersDoYouOwn('Adam'))
+// console.log(howManyLightsabersDoYouOwn("Zach"))

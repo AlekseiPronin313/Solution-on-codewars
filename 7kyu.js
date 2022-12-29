@@ -307,3 +307,13 @@
 // console.log(DNAStrand("AAAA"))
 // console.log(DNAStrand("ATTGC"))
 // console.log(DNAStrand("GTAT"))
+
+
+// const getCount = (str) => str.length - str.replace(/[aeiou]/gi, '').length
+// console.log(getCount("abracadabra"))
+
+
+// const roundToNext5 = (n) => Math.ceil(n/5)*5
+// console.log(roundToNext5(3))
+// console.log(roundToNext5(17))
+// console.log(roundToNext5(132))
