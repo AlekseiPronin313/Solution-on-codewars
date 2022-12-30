@@ -596,3 +596,25 @@
 // console.log(howManyLightsabersDoYouOwn())
 // console.log(howManyLightsabersDoYouOwn('Adam'))
 // console.log(howManyLightsabersDoYouOwn("Zach"))
+
+
+// const take = (arr, n) => arr.slice(0, n)
+// console.log(take([0, 1, 2, 3, 5, 8, 13], 3))
+
+
+// const squareSum = (numbers) => numbers.reduce((sum,num) => sum + (num * num), 0);
+// console.log(squareSum([1,2]))
+// console.log(squareSum([0, 3, 4, 5]))
+// console.log(squareSum([]))
+
+
+// const include = (arr, item) => arr.includes(item)
+// console.log(include([1,2,3,4], 3))
+// console.log(include([1,2,4,5], 3))
+// console.log(include([], 3))
+
+
+// const findLongest = (array) => array.reduce((a, b) => (String(b).length > String(a).length ? b : a))
+// console.log(findLongest([1, 10, 100]))
+// console.log(findLongest([9000, 8, 800]))
+// console.log(findLongest([8, 900, 500]))

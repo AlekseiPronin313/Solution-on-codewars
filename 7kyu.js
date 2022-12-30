@@ -317,3 +317,8 @@
 // console.log(roundToNext5(3))
 // console.log(roundToNext5(17))
 // console.log(roundToNext5(132))
+
+
+// let number = (arr) => arr.map((a, i) => `${i + 1}: ${a}`)
+// console.log(number([]))
+// console.log(number(["a", "b", "c"]))
