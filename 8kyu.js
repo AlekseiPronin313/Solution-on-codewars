@@ -630,3 +630,9 @@
 // console.log(noBoringZeros(1450))
 // console.log(noBoringZeros(-1050))
 // console.log(noBoringZeros(0))
+
+
+// const validateCode = (code) => String(code).split('')[0] <= 3
+// console.log(validateCode(123))
+// console.log(validateCode(258))
+// console.log(validateCode(9532))
