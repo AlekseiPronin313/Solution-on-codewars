@@ -322,3 +322,7 @@
 // let number = (arr) => arr.map((a, i) => `${i + 1}: ${a}`)
 // console.log(number([]))
 // console.log(number(["a", "b", "c"]))
+
+
+// const toNumberArray = (stringarray) => stringarray.splice('').map(n => +n)
+// console.log(toNumberArray(["1.1","2.2","3.3"]))

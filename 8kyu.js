@@ -618,3 +618,15 @@
 // console.log(findLongest([1, 10, 100]))
 // console.log(findLongest([9000, 8, 800]))
 // console.log(findLongest([8, 900, 500]))
+
+
+// const lowercaseCount = (str) => str.length - str.replace(/[a-z]/g, '').length
+// console.log(lowercaseCount("abc"))
+// console.log(lowercaseCount(""))
+// console.log(lowercaseCount("abcdefghijklmnopqrstuvwxyz"))
+
+
+// const noBoringZeros = (n) => +`${n}`.replace(/0+$/,'')
+// console.log(noBoringZeros(1450))
+// console.log(noBoringZeros(-1050))
+// console.log(noBoringZeros(0))
