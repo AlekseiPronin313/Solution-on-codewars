@@ -326,3 +326,39 @@
 
 // const toNumberArray = (stringarray) => stringarray.splice('').map(n => +n)
 // console.log(toNumberArray(["1.1","2.2","3.3"]))
+
+
+// const greet = (name) => `Hello ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`
+// console.log(greet('riley'))
+// console.log(greet("JACK"))
+
+
+// function checkExam(array1, array2) {
+//    let num = 0
+//     for (let i = 0; i < array1.length; i++) {
+//         if (array1[i] === array2[i]) {
+//             num += 4
+//         } else if (array2[i] === '') {
+//             num += 0
+//         } else {
+//             num -= 1
+//         }
+//     }
+//     return num < 0? 0 : num
+// }
+// console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]))
+// console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]))
+// console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]))
+
+
+// function gps(s, x) {
+//     let arr = []
+//
+//     if (x.length<=1) return 0
+//
+//     for (let i = 0; i < x.length-1; i++) {
+//         arr.push((x[i + 1] - x[i]) * 3600 / s);
+//     }
+//     return Math.max(...arr);
+// }
+// console.log(gps(20,[0.0, 0.23, 0.46, 0.69, 0.92, 1.15, 1.38, 1.61]))

@@ -636,3 +636,11 @@
 // console.log(validateCode(123))
 // console.log(validateCode(258))
 // console.log(validateCode(9532))
+
+
+// const twoDecimalPlaces = (n) => +n.toFixed(2)
+// console.log(twoDecimalPlaces(4.659725356))
+
+
+// const getAge = (inputString) => +inputString[0]
+// console.log(getAge("4 years old"))
