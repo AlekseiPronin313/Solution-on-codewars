@@ -644,3 +644,9 @@
 
 // const getAge = (inputString) => +inputString[0]
 // console.log(getAge("4 years old"))
+
+
+// const isPalindrome = (x) => x.toLowerCase() === x.split('').reverse().join('').toLowerCase()
+// console.log(isPalindrome("a"))
+// console.log(isPalindrome('aba'))
+// console.log(isPalindrome("hello"))
