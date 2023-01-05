@@ -362,3 +362,17 @@
 //     return Math.max(...arr);
 // }
 // console.log(gps(20,[0.0, 0.23, 0.46, 0.69, 0.92, 1.15, 1.38, 1.61]))
+
+
+// function divisors(integer) {
+//     const arr = []
+//     for (let i = 2; i < integer; i++) {
+//         if (integer % i === 0) {
+//             arr.push(i)
+//         }
+//     }
+//     return arr.length ? arr : `${integer} is prime`
+// };
+// console.log(divisors(15))
+// console.log(divisors(12))
+// console.log(divisors(13))

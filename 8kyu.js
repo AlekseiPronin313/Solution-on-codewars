@@ -650,3 +650,22 @@
 // console.log(isPalindrome("a"))
 // console.log(isPalindrome('aba'))
 // console.log(isPalindrome("hello"))
+
+
+// function gooseFilter (birds) {
+//     const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+//     return birds.filter(e => !~geese.indexOf(e))
+// }
+//
+// console.log(gooseFilter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]))
+// console.log(gooseFilter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]))
+
+
+// const arrayPlusArray = (arr1, arr2) => arr1.concat(arr2).reduce((a, b) => a + b)
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
+// console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]))
+
+
+// const sum = (numbers) => numbers.length === 0 ? 0 : numbers.reduce((a, b) => a + b)
+// console.log(sum([]))
+// console.log(sum([1, 5.2, 4, 0, -1]))
