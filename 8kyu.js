@@ -669,3 +669,18 @@
 // const sum = (numbers) => numbers.length === 0 ? 0 : numbers.reduce((a, b) => a + b)
 // console.log(sum([]))
 // console.log(sum([1, 5.2, 4, 0, -1]))
+
+
+// const reverseWords = (str) => str.split(' ').reverse().join(' ')
+// console.log(reverseWords("yoda doesn't speak like this"))
+// console.log(reverseWords("row row row your boat"))
+
+
+// const bonusTime = (salary, bonus) => bonus ? `£${salary * 10}` : `£${salary}`
+// console.log(bonusTime(10000, true))
+// console.log(bonusTime(60000, false))
+
+
+// const addExtra = ( listOfNumbers ) => [...listOfNumbers, 13]
+// console.log(addExtra([1,2,3]))
+// console.log(addExtra([]))
