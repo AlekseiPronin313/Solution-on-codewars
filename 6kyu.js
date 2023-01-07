@@ -168,3 +168,9 @@
 // console.log(sortArray([]))
 // console.log(sortArray([5, 3, 2, 8, 1, 4]))
 // console.log(sortArray([5, 3, 1, 8, 0]))
+
+
+// const dashatize = num => Math.abs(num).toString().split(/([13579])/g).filter(Boolean).join('-');
+// console.log(dashatize(974302))
+// console.log(dashatize(0))
+// console.log(dashatize(NaN))

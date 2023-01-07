@@ -376,3 +376,12 @@
 // console.log(divisors(15))
 // console.log(divisors(12))
 // console.log(divisors(13))
+
+
+// const removeChars = (s) => s.replace(/[^a-z ]/gi, '')
+// console.log(removeChars(".tree1"))
+// console.log(removeChars("0123456789(.)+,|[]{}=@/~;^$'<>?-!*&:#%_"))
+// console.log(removeChars('co_ol f0un%(c)t-io"n'))
+
+
+
