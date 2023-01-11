@@ -174,3 +174,39 @@
 // console.log(dashatize(974302))
 // console.log(dashatize(0))
 // console.log(dashatize(NaN))
+
+
+// function findOutlier(int){
+//     let even = int.filter(a => a % 2 == 0)
+//     let odd = int.filter(a => a % 2 !== 0)
+//     return even.length == 1? even[0] : odd[0]
+// }
+// console.log(findOutlier([1, 2, 3]))
+// console.log(findOutlier([2,6,8,10,3]))
+// console.log(findOutlier([1,1,0,1,1]))
+
+
+// const numberFormat = (number) => number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+// console.log(numberFormat(100000))
+// console.log(numberFormat(5678545))
+
+
+// function solution(num){
+//     let roman = ""
+//     const romanNumeral = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
+//     const number = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+//     for (let i = 0; i < number.length; i++) {
+//         while (num >= number[i]) {
+//             roman += romanNumeral[i]
+//             num -= number[i]
+//         }
+//     }
+//     return roman
+// }
+// console.log(solution(solution(5)))
+// console.log(solution(solution(19)))
+
+
+// const spinWords = string => string.replace(/\w{5,}/g, w => w.split('').reverse().join(''))
+// console.log(spinWords("Welcome"))
+// console.log(spinWords("Seriously this is the last one"))

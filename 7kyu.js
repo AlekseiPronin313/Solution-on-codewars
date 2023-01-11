@@ -384,4 +384,6 @@
 // console.log(removeChars('co_ol f0un%(c)t-io"n'))
 
 
-
+// const vowelOne = (str) => str.replace(/[^aeiou]/gi, '0').replace(/[^\d]/g, '1')
+// console.log(vowelOne("vowelOne"))
+// console.log(vowelOne("123, arou"))
