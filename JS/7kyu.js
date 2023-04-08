@@ -387,3 +387,11 @@
 // const vowelOne = (str) => str.replace(/[^aeiou]/gi, '0').replace(/[^\d]/g, '1')
 // console.log(vowelOne("vowelOne"))
 // console.log(vowelOne("123, arou"))
+
+
+// const capitalize = (s) =>{
+//     const evenStr = s.split('').map((a, i) => i % 2 === 0 ? a.toUpperCase() : a).join('')
+//     const oddStr = s.split('').map((a, i) => i % 2 === 0 ? a : a.toUpperCase()).join('')
+//     return [evenStr, oddStr]
+// };
+// console.log(capitalize("abcdef"))

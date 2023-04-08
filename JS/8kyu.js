@@ -684,3 +684,15 @@
 // const addExtra = ( listOfNumbers ) => [...listOfNumbers, 13]
 // console.log(addExtra([1,2,3]))
 // console.log(addExtra([]))
+
+
+// const monkeyCount = (n) => Array.from({length : n}, (_, i) => i + 1)
+// console.log(monkeyCount(5))
+// console.log(monkeyCount(9))
+
+
+// const sumArray = array => array ? array.sort((x, y) => x - y).slice(1, -1).reduce((s, e) => s + e, 0) : 0
+// console.log(sumArray([6, 2, 1, 8, 10]))
+// console.log(sumArray([3, 5]))
+// console.log(sumArray([null]))
+// console.log(sumArray([ 0, 1, 6, 10, 10 ]))
