@@ -395,3 +395,13 @@
 //     return [evenStr, oddStr]
 // };
 // console.log(capitalize("abcdef"))
+
+
+// const last = (x) => {
+//     return x.split(" ").sort((a, b) => {
+//         const lastCharA = a.slice(-1);
+//         const lastCharB = b.slice(-1);
+//         return lastCharA.localeCompare(lastCharB) || x.indexOf(a) - x.indexOf(b);
+//     });
+// }
+// console.log(last('man i need a taxi up to ubud'))

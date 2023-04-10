@@ -696,3 +696,8 @@
 // console.log(sumArray([3, 5]))
 // console.log(sumArray([null]))
 // console.log(sumArray([ 0, 1, 6, 10, 10 ]))
+
+
+// const squareOrSquareRoot = (array) =>  array.map(a => Number.isInteger(Math.sqrt(a)) ? Math.sqrt(a) : a ** 2)
+// console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ]))
+
