@@ -701,7 +701,12 @@
 // const squareOrSquareRoot = (array) =>  array.map(a => Number.isInteger(Math.sqrt(a)) ? Math.sqrt(a) : a ** 2)
 // console.log(squareOrSquareRoot([ 4, 3, 9, 7, 2, 1 ]))
 
+
 // const divisibleBy = (numbers, divisor) => numbers.filter(num => num % divisor === 0);
 // console.log(divisibleBy([1,2,3,4,5,6], 2))
 // console.log(divisibleBy([0], 4))
 // console.log(divisibleBy([1, 3, 5], 2))
+
+
+// const oddCount = (n) => Math.floor(n / 2)
+// console.log(oddCount(15))
