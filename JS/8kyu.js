@@ -707,5 +707,6 @@
 // console.log(divisibleBy([0], 4))
 // console.log(divisibleBy([1, 3, 5], 2))
 
+
 // const oddCount = (n) => Math.floor(n / 2)
 // console.log(oddCount(15))

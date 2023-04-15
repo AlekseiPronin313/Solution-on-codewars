@@ -418,8 +418,8 @@
 // console.log(dontGiveMeFive(1,9))
 
 
-const maskify = (cc) => cc.length <= 4 ? cc : '#'.repeat(Math.max(0, cc.length -4)) + cc.slice(-4)
-
-console.log(maskify('4556364607935616'))
-console.log(maskify('16'))
-console.log(maskify('12316'))
+// const maskify = (cc) => cc.length <= 4 ? cc : '#'.repeat(Math.max(0, cc.length -4)) + cc.slice(-4)
+//
+// console.log(maskify('4556364607935616'))
+// console.log(maskify('16'))
+// console.log(maskify('12316'))
