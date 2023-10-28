@@ -210,3 +210,17 @@
 // const spinWords = string => string.replace(/\w{5,}/g, w => w.split('').reverse().join(''))
 // console.log(spinWords("Welcome"))
 // console.log(spinWords("Seriously this is the last one"))
+
+
+// const solution = (string) => string.replace(/([A-Z])/g, ' $1')
+// console.log(solution('camelCasing'))
+
+
+// const spinWords = (string) => string.split(' ').map(text => text.length >= 5 ? [...text].reverse().join('') : text).join(' ')
+// console.log(spinWords("Welcome"))
+// console.log(spinWords("Hey fellow warriors"))
+
+// const count = string => [...string].reduce((obg, latter) => (obg[latter] = (obg[latter] || 0) +1, obg), {})
+// console.log(count(''))
+// console.log(count('aA'))
+// console.log(count('abda'))
