@@ -224,3 +224,8 @@
 // console.log(count(''))
 // console.log(count('aA'))
 // console.log(count('abda'))
+
+
+// const countSmileys = (arr) => arr.filter(item => /[:;][-~]?[)D]/.test(item)).length
+// console.log(countSmileys([':)',':(',':D',':O',':;']))
+// console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']))
