@@ -251,3 +251,14 @@
 // console.log(dashatize(974302))
 // console.log(dashatize(0))
 // console.log(dashatize(NaN))
+
+
+// const findUniq = (arr) => {
+//     let a = arr[0]
+//     let b = arr[1]
+//     let c = arr[2]
+//     let common = (a ===b || a === c) ? a : b
+//     return arr.find(n => n !== common)
+// }
+// console.log(findUniq([ 1, 0, 0 ]))
+// console.log(findUniq([ 3, 10, 3, 3, 3 ]))
