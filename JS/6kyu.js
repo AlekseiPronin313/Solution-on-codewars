@@ -229,3 +229,25 @@
 // const countSmileys = (arr) => arr.filter(item => /[:;][-~]?[)D]/.test(item)).length
 // console.log(countSmileys([':)',':(',':D',':O',':;']))
 // console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']))
+
+
+// function persistence(num) {
+//     let count = 0
+//     while (num > 9) {
+//         num = num.toString().split('').reduce((a,b) => a * b)
+//         count ++
+//     }
+//     return count
+// }
+// console.log(persistence(39))
+// console.log(persistence(2))
+
+
+// const dashatize = (num) => Math.abs(num).toString()
+//     .replace(/[13579]/g, '-$&-')
+//     .replace(/--+/g, '-')
+//     .replace(/^-|-$/g, '')
+// console.log(dashatize(-28369))
+// console.log(dashatize(974302))
+// console.log(dashatize(0))
+// console.log(dashatize(NaN))
