@@ -276,3 +276,17 @@
 // console.log(likes(['Jacob', 'Alex']))
 // console.log(likes(['Max', 'John', 'Mark']))
 // console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']))
+
+
+// const multiplicationTable = (size) => {
+//     const table = []
+//     for (let i = 1; i <= size; i++) {
+//         const current = []
+//         for (let b = 1; b <= size; b++) {
+//             current.push(i * b)
+//         }
+//         table.push(current)
+//     }
+//     return table
+// }
+// console.log(multiplicationTable(3))
