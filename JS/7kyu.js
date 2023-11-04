@@ -423,3 +423,8 @@
 // console.log(maskify('4556364607935616'))
 // console.log(maskify('16'))
 // console.log(maskify('12316'))
+
+
+// const wordsToMarks = (string) => [...string].map(e => e.charCodeAt(0)-96).reduce((a,b) => a+b);
+// console.log(wordsToMarks("attitude"))
+// console.log(wordsToMarks("family"))
