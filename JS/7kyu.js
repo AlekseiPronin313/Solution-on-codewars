@@ -428,3 +428,8 @@
 // const wordsToMarks = (string) => [...string].map(e => e.charCodeAt(0)-96).reduce((a,b) => a+b);
 // console.log(wordsToMarks("attitude"))
 // console.log(wordsToMarks("family"))
+
+
+// const gimme = (triplet) => triplet.indexOf([...triplet].sort((a,b) => a - b)[1])
+// console.log(gimme([2,1,3]))
+// console.log(gimme([5,10,14]))
