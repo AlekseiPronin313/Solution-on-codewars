@@ -290,3 +290,7 @@
 //     return table
 // }
 // console.log(multiplicationTable(3))
+
+
+// const alphabetPosition = text => text.toLowerCase().replace(/[^a-z]/g, '').split('').map(c => c.charCodeAt(0) - 'a'.charCodeAt(0) + 1).join(' ');
+// console.log(alphabetPosition("The sunset sets at twelve o' clock."))
