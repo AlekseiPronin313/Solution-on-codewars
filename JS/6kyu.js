@@ -294,3 +294,9 @@
 
 // const alphabetPosition = text => text.toLowerCase().replace(/[^a-z]/g, '').split('').map(c => c.charCodeAt(0) - 'a'.charCodeAt(0) + 1).join(' ');
 // console.log(alphabetPosition("The sunset sets at twelve o' clock."))
+
+
+// const solve = (s) => s.replace(/[aeiou]/gi, ' ').split(' ').reduce((max, sub) =>
+//     Math.max(max, [...sub].reduce((a, c) => a + c.charCodeAt(0) - 'a'.charCodeAt(0) + 1, 0)), 0)
+// console.log(solve("zodiac"))
+// console.log(solve("twelfthstreet"))
