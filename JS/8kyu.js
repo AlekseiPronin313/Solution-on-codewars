@@ -710,3 +710,12 @@
 
 // const oddCount = (n) => Math.floor(n / 2)
 // console.log(oddCount(15))
+
+
+// const defineSuit = (card) => {
+//     if(card.includes('♥')) return 'hearts'
+//     if(card.includes('♦')) return 'diamonds'
+//     if(card.includes('♣')) return 'clubs'
+//     if(card.includes('♠')) return 'spades'
+// }
+// console.log(defineSuit('3♣'))
