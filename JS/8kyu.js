@@ -719,3 +719,8 @@
 //     if(card.includes('♠')) return 'spades'
 // }
 // console.log(defineSuit('3♣'))
+
+
+// const remove = (string) => string.replace(/!+$/, '')
+// console.log(remove("Hi!"))
+// console.log(remove("Hi! Hi!!!"))
