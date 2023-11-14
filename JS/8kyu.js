@@ -724,3 +724,18 @@
 // const remove = (string) => string.replace(/!+$/, '')
 // console.log(remove("Hi!"))
 // console.log(remove("Hi! Hi!!!"))
+
+
+// function sameCase(a, b){
+//     if (!a.match(/[a-z]/i) || !b.match(/[a-z]/i)) {
+//         return -1;
+//     }
+//     if ((a === a.toUpperCase() && b === b.toUpperCase()) ||
+//         (a === a.toLowerCase() && b === b.toLowerCase())) {
+//         return 1;
+//     }
+//     return 0;
+// }
+// console.log(sameCase('C', 'B'))
+// console.log(sameCase('A', 's'))
+// console.log(sameCase('H', ':'))
