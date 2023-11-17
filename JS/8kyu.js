@@ -752,3 +752,5 @@
 //     return table
 // }
 // console.log(multiTable(5))
+
+
