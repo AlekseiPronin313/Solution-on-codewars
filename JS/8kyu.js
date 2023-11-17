@@ -739,3 +739,16 @@
 // console.log(sameCase('C', 'B'))
 // console.log(sameCase('A', 's'))
 // console.log(sameCase('H', ':'))
+
+
+// function multiTable(number) {
+//     let table = ''
+//     for (let i = 1; i <= 10; i++) {
+//        table += `${i} * ${number} = ${i * number}`
+//         if (i < 10) {
+//             table += '\n'
+//         }
+//     }
+//     return table
+// }
+// console.log(multiTable(5))
